@@ -210,10 +210,10 @@ html[dir=ltr] .dn{margin:0 0 0 50px}
 <div class="wc">
 <div><h2 data-e="Why Nikosresht Trade and Industries?">چرا تجارت و صنایع نیکوسرشت؟</h2><p data-e="With more than a decade of experience in the supply and trading of chemicals, Nikosresht is more than a supplier: it is a reliable partner for industry, backed by specialist knowledge, an experienced scientific team and access to advanced laboratories. By combining up-to-date knowledge with industrial experience, we deliver specialized, high-quality solutions tailored to customer needs, enabling sustainable growth and better performance across industries.">نیکوسرشت با بیش از یک دهه تجربه در تأمین و بازرگانی مواد شیمیایی، با تکیه بر دانش تخصصی، تیم علمی مجرب و دسترسی به آزمایشگاه‌های پیشرفته، فراتر از یک تأمین‌کننده، همراهی مطمئن برای صنایع است. ما با تلفیق دانش روز و تجربه صنعتی، راهکارهایی تخصصی، باکیفیت و متناسب با نیاز مشتریان ارائه می‌دهیم تا زمینه‌ساز رشد پایدار و ارتقای عملکرد صنایع باشیم.</p></div>
 <div class="fs">
-<div class="f"><img src=" supply-chain.png" alt=""><span data-e="Supply Chain">زنجیره تامین</span></div>
-<div class="f"><img src=" experience.png" alt=""><span data-e="15 Years Experience">15 سال تجربه</span></div>
-<div class="f"><img src=" quality.png" alt=""><span data-e="Quality Control">کنترل کیفیت</span></div>
-<div class="f"><img src=" technical.png" alt=""><span data-e="Technical Expertise">تخصص فنی</span></div>
+<div class="f"><img src="img/supply-chain.png" alt=""><span data-e="Supply Chain">زنجیره تامین</span></div>
+<div class="f"><img src="img/experience.png" alt=""><span data-e="15 Years Experience">15 سال تجربه</span></div>
+<div class="f"><img src="img/quality.png" alt=""><span data-e="Quality Control">کنترل کیفیت</span></div>
+<div class="f"><img src="img/technical.png" alt=""><span data-e="Technical Expertise">تخصص فنی</span></div>
 </div>
 </div>
 <div class="wi im" id="wi"></div>
@@ -261,7 +261,7 @@ var LOGO='https://www.nti-chem.com/wp-content/uploads/2023/02/cropped-logo.png';
 var FB='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><text x="60" y="62" text-anchor="middle" font-family="Arial Black,Arial" font-weight="900" font-size="52" fill="#27479a">NTi</text><text x="60" y="92" text-anchor="middle" font-family="Arial" font-weight="900" font-size="22" fill="#e8501e">Chemical</text></svg>');
 var $=function(i){return document.getElementById(i)},fa=true;
 var IM={hero:'hero.jpg',why:'why.jpg',factory:'footer-bg.jpg',kb1:'kb1.jpg',kb2:'kb2.jpg',kb3:'kb3.jpg',kb4:'kb4.jpg',tire:'tire.jpg',mining:'mining.jpg',drill:'drill.jpg',pu:'pu.jpg',leather:'leather.jpg'};
-function U(k,w,h){return IM[k]?' '+IM[k]:''}
+function U(k,w,h){return IM[k]?'img/'+IM[k]:''}
 function st(k,a,b){var u=U(k);return(u?'--i:url('+u+');':'')+'--g:linear-gradient(135deg,'+a+','+b+')'}
 document.querySelectorAll('[data-logo]').forEach(function(e){e.referrerPolicy='no-referrer';e.onerror=function(){e.onerror=null;e.src=FB};e.src=LOGO});
 $('hero').setAttribute('style','--i:url('+U('hero',1600,800)+');--g:linear-gradient(#bcd6f3,#4d729c)');
@@ -298,7 +298,7 @@ S=[];(fa?O:O.slice().reverse()).forEach(function(k,x){
 var d=document.createElement('div');d.className='is im';d.setAttribute('style',st(k,I[k][2],I[k][3]));d.innerHTML='<span>'+I[k][n]+'</span>';
 d.onclick=function(){cur=x;lay()};car.appendChild(d);S.push(d)});
 cur=2;lay();sb();
-P.forEach(function(p,i){var a=document.createElement('a');a.href='#';a.className='p';a.style.setProperty('--o',M.indexOf(i+1));a.innerHTML='<div><img src=" '+p[2]+'.png" alt=""></div><span>'+p[n]+'</span>';pg.appendChild(a)});
+P.forEach(function(p,i){var a=document.createElement('a');a.href='#';a.className='p';a.style.setProperty('--o',M.indexOf(i+1));a.innerHTML='<div><img src="img/'+p[2]+'.png" alt=""></div><span>'+p[n]+'</span>';pg.appendChild(a)});
 KD.forEach(function(c){var a=document.createElement('article');a.className='k';
 a.innerHTML='<div class="ki im" style="'+st(c[0],c[3],c[4])+'"><small>'+c[fa?1:2]+'</small></div><div class="q">”</div><h4>'+(fa?'صنعت چرم‌سازی و تولید وت بلو (Wet Blue)؛ راهنمای جامع و تخصصی':'Leather Industry and Wet Blue Production: A Comprehensive Technical Guide')+'</h4><a href="#"><svg viewBox="0 0 10 10"><path d="M8 2L2 8M2 3v5h5"/></svg>'+(fa?'ادامه مطلب':'Read more')+'</a>';kt.appendChild(a)});
 }
