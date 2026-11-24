@@ -88,25 +88,25 @@ button{font-family:inherit;border:0;background:none;cursor:pointer}
 .up svg{width:14px;height:24px;fill:none;stroke:var(--o);stroke-width:1.6}
 #top{position:fixed;right:14px;bottom:20px;z-index:60;background:#fff;opacity:0;pointer-events:none;transition:.3s}
 #top.on{opacity:1;pointer-events:auto}
-.ft{position:relative;width:100%;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;margin-top:24px;padding:92px 22px 34px;color:#fff;border-bottom:4px solid var(--o);background:linear-gradient(rgba(42,69,144,.92),rgba(42,69,144,.92)),var(--i,none) center/cover,#2a4590}
+.ft{position:relative;width:100%;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;margin-top:24px;padding:96px 24px 36px;color:#fff;border-bottom:4px solid var(--o);background:linear-gradient(rgba(42,69,144,.92),rgba(42,69,144,.92)),var(--i,none) center/cover,#2a4590}
 .tab{position:absolute;top:0;left:50%;transform:translateX(-50%);width:190px;height:62px;background:#fff;border-radius:0 0 30px 30px;display:flex;align-items:center;justify-content:center}
 .fsr{display:none}
-.fg{width:100%;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"u s""l c""b b";gap:20px 10px;align-items:start}
-.so{grid-area:s;direction:ltr;display:flex;gap:12px;justify-self:end}
-.so svg{width:28px;height:28px}
+.fg{width:100%;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"u s""l c""b b";gap:22px 14px;align-items:start}
+.so{grid-area:s;direction:ltr;display:flex;gap:14px;justify-self:end}
+.so svg{width:32px;height:32px}
 .ft .up{grid-area:u;justify-self:start;border-color:var(--o);background:none}
-.cs{grid-area:c;display:flex;flex-direction:column;gap:16px;direction:ltr;text-align:left}
-.c{display:flex;align-items:center;gap:8px;font-size:10.5px;line-height:1.4}
-.c i{width:28px;height:28px;border-radius:7px;background:var(--o);display:flex;align-items:center;justify-content:center;flex:none}
-.c svg{width:16px;height:16px;fill:none;stroke:#fff;stroke-width:1.8}
+.cs{grid-area:c;display:flex;flex-direction:column;gap:18px;direction:ltr;text-align:left}
+.c{display:flex;align-items:center;gap:10px;font-size:12.5px;line-height:1.45}
+.c i{width:34px;height:34px;border-radius:8px;background:var(--o);display:flex;align-items:center;justify-content:center;flex:none}
+.c svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:1.8}
 .c b{display:block;font-weight:400}
-.fl{grid-area:l;display:flex;flex-direction:column;gap:4px}
-.fl a{display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:center;font-size:11px;font-weight:500;padding:5px 0}
-.fl a::before{content:"";border:4px solid transparent;border-top:6px solid var(--o);border-bottom:0}
-.fb{grid-area:b;text-align:center;border-top:1px solid rgba(255,255,255,.3);padding-top:18px}
-.fb h4{font:600 14px Montserrat,Vazirmatn,sans-serif;letter-spacing:1px;margin-bottom:8px}
-.fb p{font-size:11px;font-weight:300;line-height:1.9;margin-bottom:16px}
-.mp{height:120px;overflow:hidden;border-radius:8px;background:#e3e7ef}
+.fl{grid-area:l;display:flex;flex-direction:column;gap:6px}
+.fl a{display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:center;font-size:13.5px;font-weight:500;padding:6px 0}
+.fl a::before{content:"";border:5px solid transparent;border-top:7px solid var(--o);border-bottom:0}
+.fb{grid-area:b;text-align:center;border-top:1px solid rgba(255,255,255,.3);padding-top:20px}
+.fb h4{font:600 17px Montserrat,Vazirmatn,sans-serif;letter-spacing:1.2px;margin-bottom:10px}
+.fb p{font-size:13px;font-weight:300;line-height:2;margin-bottom:18px}
+.mp{height:130px;overflow:hidden;border-radius:8px;background:#e3e7ef}
 .mp iframe{width:100%;height:100%;border:0;filter:grayscale(1)}
 .ov{position:fixed;inset:0;z-index:200;background:linear-gradient(135deg,#27479a,#1d3a85);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
 .ov.on{opacity:1;visibility:visible}
@@ -197,28 +197,31 @@ html[dir=ltr] .dn{margin:0 0 0 48px}
 .k a:hover{color:var(--o)}
 .k svg{width:12px;height:12px}
 #top{right:18px;bottom:60px}
-.ft{width:100%;min-height:100vh;min-height:100svh;padding:170px 48px 54px;margin-top:60px}
+.ft{width:100%;min-height:100vh;min-height:100svh;padding:175px 48px 60px;margin-top:60px}
 .tab{direction:ltr;left:0;transform:none;width:190px;height:180px;background:none;border-radius:0;align-items:flex-start;justify-content:flex-start;padding:0}
 .bl{display:block}
 .tab .logo{position:relative;margin:44px 0 0 42px}
 .tab .logo img{height:68px}
-.fsr{display:flex;position:absolute;top:72px;inset-inline-start:auto;right:48px;width:270px;height:34px;border:1px solid var(--o);align-items:center;padding:3px 8px 3px 4px;direction:ltr;border-radius:4px;gap:8px}
-.fsr .sb{background:var(--o);color:#fff;width:82px;height:26px;font:400 12px Roboto,sans-serif;border-radius:3px}
-.fsr input{flex:1;min-width:0;background:none;border:0;outline:0;color:#fff;font:13px Roboto,sans-serif}
-.fsr svg{width:15px;height:15px;fill:none;stroke:#fff;stroke-width:1.5}
-.fg{width:100%;max-width:1280px;grid-template-columns:280px 1fr 240px;grid-template-areas:"b . s""b l c";gap:22px 80px;margin:0 auto}
+.fsr{display:flex;position:absolute;top:72px;inset-inline-start:auto;right:48px;width:290px;height:38px;border:1px solid var(--o);align-items:center;padding:3px 10px 3px 4px;direction:ltr;border-radius:4px;gap:8px}
+.fsr .sb{background:var(--o);color:#fff;width:88px;height:28px;font:400 13px Roboto,sans-serif;border-radius:3px}
+.fsr input{flex:1;min-width:0;background:none;border:0;outline:0;color:#fff;font:13.5px Roboto,sans-serif}
+.fsr svg{width:16px;height:16px;fill:none;stroke:#fff;stroke-width:1.5}
+.fg{width:100%;max-width:1320px;grid-template-columns:340px 1fr 290px;grid-template-areas:"b . s""b l c";gap:28px 80px;margin:0 auto;align-items:start}
 .ft .up{display:none}
-.so{margin:0;gap:22px;justify-self:end}
-.so svg{width:36px;height:36px}
-.cs{gap:22px}
-.c{font-size:12px}
-.c i{width:28px;height:28px}
+.so{margin:0;gap:24px;justify-self:end}
+.so svg{width:40px;height:40px}
+.cs{gap:26px}
+.c{font-size:14.5px;gap:14px}
+.c i{width:38px;height:38px;border-radius:9px}
+.c svg{width:20px;height:20px}
 .fb{text-align:start;border:0;padding:0}
-.fb h4{font-size:17px;margin-bottom:14px}
-.fb p{font-size:11.5px;line-height:1.95;margin-bottom:18px}
-.mp{width:100%;max-width:270px;height:96px;border-radius:6px}
-.fl{display:block;column-count:2;column-gap:70px}
-.fl a{flex-direction:row;justify-content:flex-start;gap:8px;font-size:13px;padding:12px 0;break-inside:avoid}
+.fb h4{font-size:22px;margin-bottom:16px}
+.fb p{font-size:14px;line-height:2.1;margin-bottom:22px}
+.mp{width:100%;max-width:330px;height:125px;border-radius:8px}
+.fl{display:block;column-count:2;column-gap:72px}
+.fl a{flex-direction:row;justify-content:flex-start;gap:10px;font-size:15.5px;padding:15px 0;break-inside:avoid;transition:color .2s}
+.fl a:hover{color:var(--o)}
+.fl a::before{border-width:5px;border-top-width:8px}
 }
 </style>
 </head>
@@ -227,8 +230,6 @@ html[dir=ltr] .dn{margin:0 0 0 48px}
 <header class="hd" id="hd">
 <div class="hi">
 <button class="bg" id="bg" aria-label="منو"><i></i><i></i><i></i></button>
-<span class="br" data-e="NTI">NTI</span>
-<ul class="dn">
 <li><a href="#" data-e="Home">صفحه اصلی</a></li>
 <li class="hs"><a href="#ind"><span data-e="Industries">صنایع</span><svg viewBox="0 0 12 12"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg></a><div class="sub" id="isub"></div></li>
 <li class="hs"><a href="#prod"><span data-e="Products">محصولات</span><svg viewBox="0 0 12 12"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg></a><div class="sub" id="psub"></div></li>
@@ -261,7 +262,7 @@ html[dir=ltr] .dn{margin:0 0 0 48px}
 
 <section class="why" id="why">
 <div class="wc">
-<div><h2 data-e="Why Nikooseresht Trade and Industries?">چرا تجارت و صنایع نیکوسرشت؟</h2><p data-e="With more than a decade of experience in the supply and trading of chemicals, Nikooseresht is more than a supplier: it is a reliable partner for industry, backed by specialist knowledge, an experienced scientific team and access to advanced laboratories. By combining up-to-date knowledge with industrial experience, we deliver specialized, high-quality solutions tailored to customer needs, enabling sustainable growth and better performance across industries.">نیکوسرشت با بیش از یک دهه تجربه در تأمین و بازرگانی مواد شیمیایی، با تکیه بر دانش تخصصی، تیم علمی مجرب و دسترسی به آزمایشگاه‌های پیشرفته، فراتر از یک تأمین‌کننده، همراهی مطمئن برای صنایع است. ما با تلفیق دانش روز و تجربه صنعتی، راهکارهایی تخصصی، باکیفیت و متناسب با نیاز مشتریان ارائه می‌دهیم تا زمینه‌ساز رشد پایدار و ارتقای عملکرد صنایع باشیم.</p></div>
+<div><h2 data-e="Why Nikooseresht Trade and Industries?">NTI</h2><p data-e="With more than a decade of experience in the supply and trading of chemicals, Nikooseresht is more than a supplier: it is a reliable partner for industry, backed by specialist knowledge, an experienced scientific team and access to advanced laboratories. By combining up-to-date knowledge with industrial experience, we deliver specialized, high-quality solutions tailored to customer needs, enabling sustainable growth and better performance across industries.">نیکوسرشت با بیش از یک دهه تجربه در تأمین و بازرگانی مواد شیمیایی، با تکیه بر دانش تخصصی، تیم علمی مجرب و دسترسی به آزمایشگاه‌های پیشرفته، فراتر از یک تأمین‌کننده، همراهی مطمئن برای صنایع است. ما با تلفیق دانش روز و تجربه صنعتی، راهکارهایی تخصصی، باکیفیت و متناسب با نیاز مشتریان ارائه می‌دهیم تا زمینه‌ساز رشد پایدار و ارتقای عملکرد صنایع باشیم.</p></div>
 <div class="fs">
 <div class="f"><img src="img/supply-chain.png" alt=""><span data-e="Supply Chain">زنجیره تامین</span></div>
 <div class="f"><img src="img/experience.png" alt=""><span data-e="15 Years Experience">15 سال تجربه</span></div>
